@@ -2,12 +2,12 @@
 
 
 int main(){
-    int numero1;
-    int numero2;
-    int soma, subtracao, multiplicacao, divisao, resto;
+    long int numero1;
+    long int numero2;
+    long int soma, subtracao, multiplicacao, divisao, resto;
 
-    numero1 = 10;
-    numero2 = 20;
+    numero1 = 4000000000;
+    numero2 = 10000000000;
 
     soma = numero1 + numero2;
     printf("O Resultado da soma é: %d\n", resultado);
