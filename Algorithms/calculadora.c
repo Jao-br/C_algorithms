@@ -2,19 +2,14 @@
 
 
 int main(){
-    int numero1 = 0;
-    int numero2 = 0;
-    int resultado = 0;
+    int numero1;
+    int numero2;
+    int resultado;
 
-    printf("Digite o primeiro numero: ");
-    scanf("%d", &numero1);
-    
+    numero1 = 10;
+    numero2 = 20;
 
     resultado = numero1 + numero2;
+    printf("O Resultado da soma é: %d\n", resultado);
 
-
-
-
-
-     
 }
