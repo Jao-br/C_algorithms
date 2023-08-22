@@ -30,3 +30,5 @@ else if(operacao == '%'){
 else{
     printf("Operação inválida");
 }
+
+printf("O resultado é: %d", resultado);
