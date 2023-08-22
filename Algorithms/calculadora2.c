@@ -12,23 +12,26 @@ scanf("%c", &operacao);
 print("Insira dois numeros: \n");
 scanf("%d %d", &numero1, &numero2);
 
+printf("Operação: %c", operacao)
+
 if (operacao == '+'){
-    resultado = numero1 + numero2 ;
+    printf("O resultado é: %d", numero1 + numero2);
 }
 else if(operacao=='-') {
-    resultado = numero1 - numero2;
+    printf("O resultado é: %d", numero1 - numero2);
 }
 else if(operacao == '/'){
-    resultado = numero1 / numero2;
+    printf("O resultado é: %d", numero1 / numero2);
 }
 else  if(operacao == '*'){
-    resultado= numero1 * numero2;
+    printf("O resultado é: %d", numero1 * numero2);
 }
 else if(operacao == '%'){
-    resultado = numero1 % numero2;
+    printf("O resultado é: %d", numero1 % numero2);
 }
 else{
-    printf("Operação inválida");
+    printf("OPERAÇÃO INVALIDA");
 }
 
-printf("O resultado é: %d", resultado);
+
+return 0;
